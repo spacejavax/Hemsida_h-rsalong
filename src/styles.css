@@ -86,3 +86,8 @@ h1,h2{letter-spacing:-.025em}
 
 .hero-img .image-shell img{object-fit:cover;object-position:center}
 @media(max-width:850px){.hero-img .image-shell img{object-position:center 38%}}
+
+/* Hero photo: shown in full on a soft mat, so the whole team stays in frame at every size */
+.hero-img{background:var(--sand);padding:5%}
+.hero-img .image-shell,.hero-img .image-shell.loaded{background:transparent}
+.hero-img .image-shell img{object-fit:contain;object-position:center}

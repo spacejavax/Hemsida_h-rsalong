@@ -4,7 +4,7 @@ export const salon = {
   phoneDisplay: '0455-84 405', phoneHref: 'tel:+4645584405', email: 'nimetfrisor@gmail.com',
   address: { street: 'Amiralitetstorget 25', postalCode: '371 30', city: 'Karlskrona', country: 'SE' },
   links: { booking: 'https://www.bokadirekt.se/places/hairbynimet-beauty-salon-company-27800', instagram: 'https://www.instagram.com/hairbynimet/', map: 'https://www.google.com/maps/search/?api=1&query=Amiralitetstorget+25%2C+371+30+Karlskrona' },
-  rating: { value: '4,8', count: '1 837', source: 'Bokadirekt' },
+  rating: { value: '4,8', source: 'Bokadirekt' },
   reviews: [
     { name: 'Nathalie E.', initials: 'NE', stylist: 'Nimet Skoro', timeAgo: 'för 9 månader sedan', quote: 'En stund av lyx! Så nöjd – professionell, lyhörd och alltid ett fantastiskt resultat.' },
     { name: 'Marie H.', initials: 'MH', stylist: 'Josefine', timeAgo: 'för 3 månader sedan', quote: 'Fantastisk service som alltid! Kunnig och ödmjuk! Finns en anledning att jag alltid kommer tillbaka!' },
