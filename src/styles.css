@@ -84,10 +84,7 @@ h1,h2{letter-spacing:-.025em}
 .review-gallery .text-link{color:var(--ink)}
 @media(max-width:850px){.review-gallery{padding:72px 6vw}.review-heading{margin-bottom:34px}.review-grid{grid-template-columns:1fr;gap:16px}.review-card{padding:26px}.rating-value{font-size:38px}}
 
+/* Hero photo: frame matches the photo's own proportions, so it fills edge-to-edge with nobody cropped out */
+.hero-img{aspect-ratio:1206/669;height:auto;align-self:center}
 .hero-img .image-shell img{object-fit:cover;object-position:center}
-@media(max-width:850px){.hero-img .image-shell img{object-position:center 38%}}
-
-/* Hero photo: shown in full on a soft mat, so the whole team stays in frame at every size */
-.hero-img{background:var(--sand);padding:5%}
-.hero-img .image-shell,.hero-img .image-shell.loaded{background:transparent}
-.hero-img .image-shell img{object-fit:contain;object-position:center}
+@media(max-width:850px){.hero-img{aspect-ratio:1206/669;height:auto}}
