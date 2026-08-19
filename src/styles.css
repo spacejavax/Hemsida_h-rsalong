@@ -45,3 +45,23 @@ h1,h2{letter-spacing:-.025em}
   .hero-copy>p:not(.eyebrow){font-size:16px;line-height:1.6}
 }
 @media(max-width:360px){h1{font-size:42px}.hero-copy{padding-inline:20px}}
+
+/* Dusty mauve sampled from the Gesällbrev lettering in the hero image. */
+.button{background:#a77f8d}
+.button:hover{background:#8f6876}
+.announcement{background:#a77f8d}
+.final-booking .button{background:#a77f8d;color:#fff}
+@media(max-width:850px){.mobile-booking{background:#a77f8d}}
+
+.review-gallery{padding:100px 8vw;background:var(--sand);text-align:center}
+.review-heading{max-width:680px;margin:0 auto 48px}
+.review-heading svg{color:#a77f8d;margin-bottom:12px}
+.review-heading h2{margin-top:.18em}
+.review-heading>p:last-child{color:#665b54}
+.review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:1200px;margin:0 auto 28px}
+.review-grid img{height:auto;aspect-ratio:auto;object-fit:contain;border-radius:18px;box-shadow:0 12px 32px rgba(36,29,25,.08)}
+.review-gallery .text-link{color:var(--ink)}
+@media(max-width:850px){.review-gallery{padding:72px 6vw}.review-heading{margin-bottom:34px}.review-grid{grid-template-columns:1fr;gap:14px}.review-grid img{border-radius:12px}}
+
+.hero-img .image-shell img{object-fit:cover;object-position:center}
+@media(max-width:850px){.hero-img .image-shell img{object-position:center 38%}}
